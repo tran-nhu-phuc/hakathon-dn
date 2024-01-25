@@ -1,0 +1,52 @@
+.table-modal-update {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-modal-update .box-modal-update {
+    width: 400px;
+    height: 250px;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    row-gap: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.table-modal-update .box-modal-update textarea {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    height: 200px;
+    padding: 5px;
+}
+
+.table-modal-update .box-modal-update textarea::-webkit-scrollbar {
+    display: none;
+}
+
+.table-modal-update .box-modal-update button {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 100px;
+    padding: 10px 0;
+    border-radius: 5px;
+    background-color: greenyellow;
+    color: #ffff;
+    border: none;
+}
+
+.table-modal-update .box-modal-update .close-modal-update {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}

@@ -1,0 +1,48 @@
+.table-list-data {
+    width: 100%;
+    margin-top: 50px;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.table-list-data .box-list-item {
+    width: 24%;
+    padding: 20px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #ffff;
+    position: relative;
+}
+
+.table-list-data .box-list-item .icon-delete-note {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    font-size: 25px;
+    background-color: rgb(255, 0, 0);
+    color: #ffff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.table-list-data .box-list-item .icon-update-note {
+    position: absolute;
+    bottom: -10px;
+    right: 30px;
+    font-size: 25px;
+    background-color: orange;
+    color: #ffff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
